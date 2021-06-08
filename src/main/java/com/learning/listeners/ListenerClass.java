@@ -12,7 +12,6 @@ import com.learning.extentReports.ExtentReport;
 public class ListenerClass implements ITestListener, ISuiteListener {
 
 	public void onStart(ISuite suite) {
-		System.out.println("Onstart");
 		ExtentReport.initReports();
 	}
 

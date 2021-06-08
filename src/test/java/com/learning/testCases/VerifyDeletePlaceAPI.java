@@ -17,7 +17,6 @@ public class VerifyDeletePlaceAPI extends SupportClass {
 	{
 		deleteApi=new DeleteAPI();
 		String placeid=addPayload();
-		System.out.println("in delete api" + placeid);
 		
 		response=deleteApi.deleteAPI(placeid);
 		Validations.validateStatusCode(response, 200);

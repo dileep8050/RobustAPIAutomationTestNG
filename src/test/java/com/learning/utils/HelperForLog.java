@@ -24,17 +24,17 @@ public class HelperForLog {
 		map.put("Request URI ", queryable.getBaseUri()+resources);
 		map.put("Request params ", queryable.getQueryParams().toString());
 		
-		ExtentLogger.info("Header");
+		ExtentLogger.info(MarkupHelper.createLabel("Header", ExtentColor.GREEN));
 		ExtentLogger.info(MarkupHelper.createUnorderedList(map).getMarkup());
 		
 		if(queryable.getBody()!=null) {
-			ExtentLogger.info("Body");
+			ExtentLogger.info(MarkupHelper.createLabel("Body", ExtentColor.GREEN));
 			ExtentLogger.info(MarkupHelper.createCodeBlock(queryable.getBody().toString(), CodeLanguage.JSON));
 		}
 		else {}
 		
 		ExtentLogger.info(MarkupHelper.createLabel("Status code we got : "+ response.getStatusCode(), ExtentColor.GREEN));
-		ExtentLogger.info("Response");
+		ExtentLogger.info(MarkupHelper.createLabel("Response", ExtentColor.GREEN));
 		ExtentLogger.info(MarkupHelper.createCodeBlock(response.asString(), CodeLanguage.JSON));
 		
 	}

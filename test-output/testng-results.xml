@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-08T19:34:57 IST" name="Suite" finished-at="2021-06-08T19:35:20 IST" duration-ms="22247">
+  <suite started-at="2021-06-08T19:53:41 IST" name="Suite" finished-at="2021-06-08T19:54:03 IST" duration-ms="22105">
     <groups>
     </groups>
-    <test started-at="2021-06-08T19:34:57 IST" name="Test" finished-at="2021-06-08T19:35:20 IST" duration-ms="22247">
+    <test started-at="2021-06-08T19:53:41 IST" name="Test" finished-at="2021-06-08T19:54:03 IST" duration-ms="22105">
       <class name="com.learning.testCases.VerifyDeletePlaceAPI">
-        <test-method signature="deltePlaceWithValidPlaceID()[pri:0, instance:com.learning.testCases.VerifyDeletePlaceAPI@140c9f39]" started-at="2021-06-08T19:35:09 IST" name="deltePlaceWithValidPlaceID" finished-at="2021-06-08T19:35:12 IST" duration-ms="3188" status="PASS">
+        <test-method signature="deltePlaceWithValidPlaceID()[pri:0, instance:com.learning.testCases.VerifyDeletePlaceAPI@140c9f39]" started-at="2021-06-08T19:53:52 IST" name="deltePlaceWithValidPlaceID" finished-at="2021-06-08T19:53:55 IST" duration-ms="3196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deltePlaceWithValidPlaceID -->
       </class> <!-- com.learning.testCases.VerifyDeletePlaceAPI -->
       <class name="com.learning.testCases.VerifyUpdatePlaceAPI">
-        <test-method signature="updatePlaceWithValidPlaceID()[pri:0, instance:com.learning.testCases.VerifyUpdatePlaceAPI@4d910fd6]" started-at="2021-06-08T19:35:12 IST" name="updatePlaceWithValidPlaceID" finished-at="2021-06-08T19:35:20 IST" duration-ms="7684" status="PASS">
+        <test-method signature="updatePlaceWithValidPlaceID()[pri:0, instance:com.learning.testCases.VerifyUpdatePlaceAPI@4d910fd6]" started-at="2021-06-08T19:53:55 IST" name="updatePlaceWithValidPlaceID" finished-at="2021-06-08T19:54:03 IST" duration-ms="7993" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatePlaceWithValidPlaceID -->
       </class> <!-- com.learning.testCases.VerifyUpdatePlaceAPI -->
       <class name="com.learning.testCases.VerifyAddPlaceAPITest">
-        <test-method signature="addingPlaceUsingJsonFile()[pri:0, instance:com.learning.testCases.VerifyAddPlaceAPITest@19d481b]" started-at="2021-06-08T19:34:57 IST" name="addingPlaceUsingJsonFile" finished-at="2021-06-08T19:35:03 IST" duration-ms="5426" status="PASS">
+        <test-method signature="addingPlaceUsingJsonFile()[pri:0, instance:com.learning.testCases.VerifyAddPlaceAPITest@19d481b]" started-at="2021-06-08T19:53:41 IST" name="addingPlaceUsingJsonFile" finished-at="2021-06-08T19:53:46 IST" duration-ms="5551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingPlaceUsingJsonFile -->
       </class> <!-- com.learning.testCases.VerifyAddPlaceAPITest -->
       <class name="com.learning.testCases.VerifyGetPlaceAPITest">
-        <test-method signature="getplaceWithValidPlaceID()[pri:0, instance:com.learning.testCases.VerifyGetPlaceAPITest@1f97cf0d]" started-at="2021-06-08T19:35:03 IST" name="getplaceWithValidPlaceID" finished-at="2021-06-08T19:35:09 IST" duration-ms="5906" status="PASS">
+        <test-method signature="getplaceWithValidPlaceID()[pri:0, instance:com.learning.testCases.VerifyGetPlaceAPITest@1f97cf0d]" started-at="2021-06-08T19:53:46 IST" name="getplaceWithValidPlaceID" finished-at="2021-06-08T19:53:52 IST" duration-ms="5319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getplaceWithValidPlaceID -->
